@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+}
+h1{
+    margin: 0px 20px 20px 20px;
+  width: 250px;
+  height: 120px;
+    float: left;
+}
+nav { 
+    float: right;
+    padding: 70px 50px 20px 0px;
+    font-size: 17px;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav a:hover {
+    color: #6D9AD1;
+}
+a.aboutnav {
+
+        color: #6D9AD1;
+}
+a.donation {
+    background-color: #22487F;
+  color: #ffffff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.donation:hover {
+    background-color: #6D9AD1;
+      color: #ffffff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+body {
+  font-family: Verdana, Arial, serif;
+  font-size: 100%;
+  background-color: white;
+}
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.info {
+    margin: auto;
+    width: 700px;
+    text-align: left;
+    word-break: break-word;
+    text-align: center;
+    padding: 0px 50px 20px 50px;
+}
+.aboutlinks {
+    text-align: center;
+    padding: 0px 50px 20px 30px;
+}
+a.aboutlinks {
+    background-color: #22487F;
+  color: #ffffff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.aboutlinks:hover {
+    background-color: #6D9AD1;
+    color: #ffffff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.mission {
+  float: left;
+  width: 20%;
+  padding: 0px 150px 20px 170px;
+}
+.vision:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.mission img {
+  width: 500px;
+  height: 500px;
+}
+.members img {
+  width: 200px;
+  height: 200px;
+}
+.members {
+  float: left;
+  width: 10%;
+  padding: 0px 30px 100px 90px;
+}
+.team:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.caption {
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+.won img {
+  width: 500px;
+  height: 500px;
+}
+.won {
+  float: left;
+  width: 20%;
+  padding: 0px 10px 100px 85px;
+}
+.awards:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sponsors img {
+  width: 150px;
+  height: 150px;
+}
+.sponsors {
+  float: left;
+  width: 5%;
+  padding: 0px 0px 50px 210px;
+}
+.thank-you:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer {
+    margin: auto;
+    width: 100%;
+    background-image: url(images/footer-01.svg);
+    background-size: cover;
+	position: relative;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding; 70px 0px;
+}
+.container{
+    max-height: 500px;
+    max-width: 1500px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 70px 0px 20px 90px;
+}
+.footer-col img {
+    width: 190px;
+}
+input[type=text]{
+  width: 20%;
+    background-color: #fff;
+  color: #22487F;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+input[type=text]:focus {
+  background-color: #6D9AD1;
+}
+a.label {
+    background-color: #203044;
+  color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  padding: 10px 15px;
+  text-align: center;
+      text-decoration: none;
+}
+a.label:hover {
+      background-color: #6D9AD1;
+  color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  padding: 10px 15px;
+  text-align: center;
+      text-decoration: none;  
+}
+a.footerlinks {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+    }
+a.footerlinks:hover {
+   color: #6D9AD1; 
+}
+.social-icon {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.social-icon:hover {
+    color: #6D9AD1;
+}
+h3 {
+    padding-bottom: 10px;
+}
+p {
+    padding-bottom: 10px;
+}
+h2 {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: #203044;
+}

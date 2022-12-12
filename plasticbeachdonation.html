@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon-01.svg" type="image/svg" sizes="16x16">
+    <title>Donate</title>
+    <link rel="stylesheet" type="text/css" href="plasticbeachdonation.css">
+</head>
+
+<header>
+    <h1><a href="index.html"><img src="images/logo%20white-01.svg" alt="toplogo"></a></h1>
+<nav>
+    <a class="about" href="plasticbeachabout.html">About</a>
+   <a href="plasticbeachclean.html">Clean</a>
+    <a href="plasticbeachart.html">Art</a>
+    <a class="donation" href="plasticbeachdonation.html">Donate</a></nav>
+    </header>
+<body>
+<h3>thank you</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+
+          <label for="amount">amount</label>
+    <select id="amount" name="amount">
+      <option value="10">$10</option>
+      <option value="25">$25</option>
+      <option value="50">$50</option>
+        <option value="100">$100</option>
+        <option value="200">$200</option>
+        <option value="500">$500</option>
+    </select>
+          <input type="text" id="fname" name="firstname" placeholder="$ Custom Amount                                                              USD">
+
+      	            <div class="switch">
+					<input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+					<label for="one-time" class="switch-label switch-label-off">one time</label>
+					<input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+					<label for="monthly" class="switch-label switch-label-on">monthly</label>
+					<span class="switch-selection"></span>
+			    </div>
+
+    <label for="card">card number</label>
+      <div class="card"><input type="text" id="card" name="card" placeholder="****     ****    ****    ****"></div>
+    <div class="date"><label for="date">exp. date</label>
+        <input type="text" id="date" name="date" placeholder="MM/YY"></div>
+         <div class="cvv"><label for="cvv">cvv</label>
+      <input type="text" id="cvv" name="cvv" placeholder=""></div>
+         <div class="zip"><label for="zip">zip</label>
+    <input type="text" id="zip" name="zip" placeholder=""></div>
+
+          <input type="submit" value="Submit">
+  </form>
+</div>
+        <section><h2>100% of donations goes towards cleaning the ocean!</h2></section>
+</body>
+</html>

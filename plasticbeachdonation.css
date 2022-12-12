@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+h1{
+    margin: 31px 20px 20px 19px;
+  width: 260px;
+  height: 120px;
+    float: left;
+}
+nav { 
+    float: right;
+    padding: 70px 50px 20px 0px;
+    font-size: 17px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav a:hover {
+    color: #6D9AD1;
+}
+a.donation {
+    background-color: #6D9AD1;
+  color: #fff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.donation:hover {
+    background-color: #6D9AD1;
+      color: #ffffff;
+    border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-image: url(images/background-01.svg);
+    background-size: cover;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #22487F;
+  border-radius: 25px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    color: #22487F;
+}
+
+input[type=submit] {
+    width: 400px;
+  background-color: #22487F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6D9AD1;
+}
+
+.container {
+    width: 400px;
+    height: 390px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding: 20px;
+ margin-top: 150px;
+    margin-left: 950px;
+    color: #22487F;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.switch {
+  height: 30px;
+    text-align: center;
+}
+.date {
+    float: left;
+    width: 120px;
+    padding: 0px 20px 0px 0px;
+}
+.cvv {
+    float: left;
+    width: 120px;
+        padding: 0px 20px 0px 0px;
+}
+.zip {
+    float: left;
+    width: 120px;
+}
+h3 {
+    font-size: 0px;
+}
+h2 {
+    width: 400px;
+    padding: 50px 0px 0px 970px;
+    text-align: center;
+    color: #fff
+}
